@@ -24,10 +24,20 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/EN_logo.png"><!--"apple-touch-icon.png"-->
-    <link rel="icon" type="image/png" sizes="32x32" href="images/EN_logo.png">><!--"favicon-32x32.png"-->
-    <link rel="icon" type="image/png" sizes="16x16" href="images/EN_logo.png">><!--"favicon-16x16.png"-->
+    <!--
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+    -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
 </head>
 
@@ -48,11 +58,10 @@
             <nav class="s-header__nav">
                 <ul>
                     <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
-                    <li><a class="smoothscroll" href="#about">About</a></li>
+                    <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
                     <li><a class="smoothscroll" href="#resume">Resumé</a></li>
-                    <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-                    <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
-                    <li><a class="smoothscroll" href="#contact">Say Hello</a></li>
+                    <li><a class="smoothscroll" href="#about">About</a></li>
+                    <li><a class="smoothscroll" href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div> <!-- end row -->
@@ -80,226 +89,11 @@
                     This is my portfolio.
                     </h3>
 
-                    <div class="s-hero__content-social">
-                        <a href="#0"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                    </div>
-
                 </div> <!-- end s-hero__content-about -->
 
             </div>
         </div> <!-- s-hero__content -->
-
-        <div class="s-hero__scroll">
-            <a href="#about" class="s-hero__scroll-link smoothscroll">
-                <span class="scroll-arrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
-                </span>
-                <span class="scroll-text">Scroll Down</span>
-            </a>
-        </div> <!-- s-hero__scroll -->
-
     </section> <!-- end s-hero -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-
-        <div class="row">
-            <div class="column large-3 tab-12">
-                <img class="s-about__pic" src="images/avatars/dark_background_2_cropped.jpg" alt="">
-            </div>
-            <div class="column large-9 tab-12 s-about__content">
-                <h3>About Me</h3>
-                <p>
-                    I'm an engineering student in my fifth year who is passionate about physics and technology. 
-                    Having a background in product development, IT and physics gives me the advantage of having a broader understanding of the spectrum of engineering. 
-                    After my studies, I'm looking forward to joining an exciting organization that aims for creating technological innovation and making an impact on society.
-                </p>
-
-                <hr>
-
-                <div class="row s-about__content-bottom">
-                    <div class="column w-1000-stack">
-                        <h3>Contact Details</h3>
-    
-                        <p>
-                        Erik Norlin <br>
-                        Gothenburg, Sweden <br>
-                        <a href="tel:+46761658814">Call/text me</a> <br>
-                        <a href="mailto:eriknorlin97@gmail.com">Email me</a>
-                        </p>
-                        
-                    </div>
-                    <div class="column w-1000-stack">
-                        <a href="resumé.html" class="btn btn--download">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path><path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path></svg>
-                            Resumé
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end row -->
-
-    </section> <!-- end s-about -->
-
-
-    <!-- resume
-    ================================================== -->
-    <section id="resume" class="s-resume target-section">
-        
-        <div class="row s-resume__section">
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Career</h3>
-            </div>
-            <div class="column large-9 tab-12">
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">Dropbox</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Product Designer</span> 
-                            <span class="resume-block__header-date">
-                                August 2019 - Present
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
-                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
-                    aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam 
-                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">Facebook</h4>
-                        <p class="resume-block__header-meta">
-                            <span>UI/UX Designer</span> 
-                            <span class="resume-block__header-date">
-                                August 2016 - July 2019
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
-                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
-                    aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam 
-                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
-                    </p>
-
-                </div> <!-- end resume-block -->
-            </div>
-        </div> <!-- s-resume__section -->
-
-
-        <div class="row s-resume__section">
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Education</h3>
-            </div>
-            <div class="column large-9 tab-12">
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">University of Life</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Master in Graphic Design</span> 
-                            <span class="resume-block__header-date">
-                                April 2015
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
-                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
-                    aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam 
-                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">School of Cool Designers</h4>
-                        <p class="resume-block__header-meta">
-                            <span>B.A. Degree in Graphic Design</span> 
-                            <span class="resume-block__header-date">
-                                August 2012
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
-                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
-                    aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam 
-                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
-                    </p>
-
-                </div> <!-- end resume-block -->
-            </div>
-        </div> <!-- s-resume__section -->
-
-
-        <div class="row s-resume__section">
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Skills</h3>
-            </div>
-            <div class="column large-9 tab-12">
-                <div class="resume-block">
-
-                    <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore 
-                    vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae 
-                    aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam 
-                    nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
-                    </p>
-
-                    <ul class="skill-bars-fat">
-                        <li>
-                        <div class="progress percent85"></div>
-                        <strong>HTML</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent85"></div>
-                        <strong>CSS</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent65"></div>
-                        <strong>Javascript</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent90"></div>
-                        <strong>Figma</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent75"></div>
-                        <strong>Illustrator</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent60"></div>
-                        <strong>Photoshop</strong>
-                        </li>
-                    </ul>
-
-                </div> <!-- end resume-block -->
-
-            </div>
-        </div> <!-- s-resume__section -->
-
-    </section> <!-- end s-resume -->
 
 
     <!-- portfolio
@@ -545,181 +339,188 @@
 
     </section> <!-- end s-cta -->
 
-
-    <!-- testimonials
+    
+    <!-- resume
     ================================================== -->
-    <section id="testimonials" class="s-testimonials target-section">
+    <section id="resume" class="s-resume target-section">
+        
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Career</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
 
-        <div class="s-testimonials__bg"></div>
+                    <div class="resume-block__header">
+                        <h4 class="h3">Einride</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Information Technology Helpdesk Support</span> 
+                            <span class="resume-block__header-date">
+                                June 2023 - August 2023
+                            </span>
+                        </p>
+                    </div>
+                    <p>
+                        Einride is a swedish transportation company aiming towards changing the road freight for good with autonomous and electric vehicles. <br><br>
+                        Summer internship where I was at the frontline of the IT Helpdesk.  <br>
+                        <ul>
+                            <li>Troubleshot and fixed a variety of technical issues within the organization.</li>
+                            <li>Wrote technical documentation.</li>
+                            <li>Onboarded/offboarded devices to/from Microsoft cloud services.</li>
+                            <li>Deployed apps in Microsoft cloud services.</li>
+                            <li>Wrote scripts for these procedures that made the workflow in IT more efficient.</li>
+                        </ul>
+                    </p>
 
-        <div class="row s-testimonials__header">
-            <div class="column large-12">
-                <h3>Hear What My Clients Says</h3>
+                </div> <!-- end resume-block -->
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Brinja</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Bachelor Thesis</span> 
+                            <span class="resume-block__header-date">
+                                January 2022 - June 2022
+                            </span>
+                        </p>
+                    </div>
+                    <p>
+                        Brinja is a swedish company that creates intelligent and safer construction sites using radar technology. <br><br>
+                        Executed an experimental concept study that uses the Design Thinking methodology to explore how Brinja AB can improve its encapsulation of a connected sensor solution for concrete measurement.
+                        Arrived to a solution that improved their product.
+                    </p>
+
+                </div> <!-- end resume-block -->
+            </div>
+        </div> <!-- s-resume__section -->
+
+
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Education</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Chalmers University of Technology</h4>
+                        <p class="resume-block__header-meta">
+                            <span>MSc. Engineering Physics: Complex Adaptive Systems</span> 
+                            <span class="resume-block__header-date">
+                                2022 - 2024
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                        Algorithms, optimization, dynamical systems, machine learning and software engineering was the main focus here.
+                    </p>
+
+                </div> <!-- end resume-block -->
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Jönköping University</h4>
+                        <p class="resume-block__header-meta">
+                            <span>BSc. Mechanical Engineering: Product Development and Design</span> 
+                            <span class="resume-block__header-date">
+                                2019 - 2022
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                        The process from market research to rapid prototyping was greatly empathized in this program.
+                    </p>
+
+                </div> <!-- end resume-block -->
+            </div>
+        </div> <!-- s-resume__section -->
+
+
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Skills</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <p>
+                    Mathematical modelling, programming.
+                    </p>
+
+                </div> <!-- end resume-block -->
+
+            </div>
+        </div> <!-- s-resume__section -->
+        <div class="column large-9 tab-12 s-about__content">
+            <div class="column w-1000-stack">
+                <a href="Erik-Norlin-CV.pdf" target="_blank" class="btn btn--download">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path><path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path></svg>
+                    CV
+                </a>
             </div>
         </div>
+    </section> <!-- end s-resume -->
 
-        <div class="row s-testimonials__content">
 
-            <div class="column">
 
-                <div class="swiper-container testimonial-slider">
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
 
-                    <div class="swiper-wrapper">
+        <div class="row">
+            <div class="column large-3 tab-12">
+                <img class="s-about__pic" src="images/avatars/dark_background_2_cropped.jpg" alt="">
+            </div>
+            <div class="column large-9 tab-12 s-about__content">
+                <h3>About Me</h3>
+                <p>
+                    I'm an engineering student in my fifth year who is passionate about physics and technology. 
+                    Having a background in product development, IT and physics gives me the advantage of having a broader understanding of the spectrum of engineering. 
+                    After my studies, I'm looking forward to joining an exciting organization that aims for creating technological innovation and making an impact on society.
+                </p>
 
-                        <div class="testimonial-slider__slide swiper-slide">
-                            <div class="testimonial-slider__author">
-                                <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
-                                <cite class="testimonial-slider__cite">
-                                    <strong>Tim Cook</strong>
-                                    <span>CEO, Apple</span>
-                                </cite>
-                            </div>
-                            <p>
-                            Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                            Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
-                            Laudantium quia consequatur molestias delectus culpa.
-                            </p>
-                        </div> <!-- end testimonial-slider__slide -->
-        
-                        <div class="testimonial-slider__slide swiper-slide">
-                            <div class="testimonial-slider__author">
-                                <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonial-slider__avatar">
-                                <cite class="testimonial-slider__cite">
-                                    <strong>Sundar Pichai</strong>
-                                    <span>CEO, Google</span>
-                                </cite>
-                            </div>
-                            <p>
-                            Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                            Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
-                            Quasi voluptas eius distinctio. Atque eos maxime.
-                            </p>
-                        </div> <!-- end testimonial-slider__slide -->
-        
-                        <div class="testimonial-slider__slide swiper-slide">
-                            <div class="testimonial-slider__author">
-                                <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonial-slider__avatar">
-                                <cite class="testimonial-slider__cite">
-                                    <strong>Satya Nadella</strong>
-                                    <span>CEO, Microsoft</span>
-                                </cite>
-                            </div>
-                            <p>
-                            Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                            Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
-                            Voluptatem dignissimos ut.
-                            </p>
-                        </div> <!-- end testimonial-slider__slide -->
+                <hr>
 
-                        <div class="testimonial-slider__slide swiper-slide">
-                            <div class="testimonial-slider__author">
-                                <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonial-slider__avatar">
-                                <cite class="testimonial-slider__cite">
-                                    <strong>Jeff Bezos</strong>
-                                    <span>CEO, Amazon</span>
-                                </cite>
-                            </div>
-                            <p>
-                            Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis 
-                            quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
-                            Nihil ea quia nesciunt. Ducimus aut sed ipsam.
-                            </p>
-                        </div> <!-- end testimonial-slider__slide -->
+                <!-- contact
+                ================================================== -->
+                <div id ="contact" class="row s-about__content-bottom">
+                    <div class="column w-1000-stack">
+                        <h3>Contact</h3>
     
-                    </div> <!-- end testimonial slider swiper-wrapper -->
-
-                    <div class="swiper-pagination"></div>
-
-                </div> <!-- end swiper-container -->
-
-            </div> <!-- end column -->
-
+                        <p>
+                        Erik Norlin <br>
+                        Gothenburg, Sweden <br>
+                        <a href="tel:+46761658814">Call/text me</a> <br>
+                        <a href="mailto:eriknorlin97@gmail.com">Email me</a> <br>
+                        <a href="https://www.linkedin.com/in/erik-norlin-134859200/" target="_blank">Find me on <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </p>
+                        
+                    </div>
+                    <div class="column w-1000-stack">
+                        <a href="Erik-Norlin-CV.pdf" target="_blank" class="btn btn--download">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path><path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path></svg>
+                            CV
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div> <!-- end row -->
-
-    </section> <!-- end s-testimonials -->
-
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact target-section">
-
-        <div class="row s-contact__header">
-            <div class="column large-12">
-                <h3 class="section-header-allcaps">Say Hello</h3>
-            </div>
-        </div>
-
-        <div class="row s-contact__content">
-
-            <div class="column large-7 medium-12">
-
-                <h4 class="huge-text">
-                Have a new project in mind? Let's collaborate and build something awesome. 
-                Let's turn that idea to an even greater product :)
-                </h4>
-
-            </div>
-
-            <div class="column large-4 medium-12">
-
-                <div class="row contact-infos">
-                    <div class="column large-12 medium-6 tab-12">
-                        <div class="contact-block">
-                            <h5 class="contact-block__header">
-                                Email
-                            </h5>
-                            <p class="contact-block__content">
-                                <a class="mailtoui" href="mailto:sayhello@ceevee.com">sayhello@ceevee.com</a>
-                            </p>
-                        </div> <!-- end contact-block -->
-                    </div>
-                    <div class="column large-12 medium-6 tab-12">
-                        <div class="contact-block">
-                            <h5 class="contact-block__header">
-                                Phone
-                            </h5>
-                            <p class="contact-block__content">
-                                <a href="tel:+1975432345">+197 543 2345</a>
-                            </p>
-                        </div> <!-- end contact-block -->
-                    </div>
-
-                    <div class="column large-12">
-                        <a href="mailto:sayhello@ceevee.com" class="mailtoui btn btn--primary h-full-width">Let's Talk</a>
-                    </div>
-                </div> <!-- end contact-infos -->
-
-            </div>
-        </div> <!-- s-contact__content -->
-
-    </section> <!-- end s-contact -->
-    
+    </section> <!-- end s-about -->
+ 
 
     <!-- footer
     ================================================== -->
     <footer class="s-footer">
         <div class="row">
-            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
-                <ul class="s-footer__social">
-                    <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-
             <div class="column large-7 medium-6 w-1000-stack ss-copyright">
                 <span>© Copyright Ceevee 2021</span> 
                 <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
             </div>
         </div>
-
-        <div class="ss-go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"/></svg>
-             </a>
-        </div> <!-- end ss-go-top -->
     </footer>
 
 
