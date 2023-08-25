@@ -1700,7 +1700,7 @@ h6, .h6 {
     font-size: var(--text-sm);
     line-height: var(--vspace-0_75);
 }
-/*
+
 h6, .h6 {
     font-size: var(--text-sm);
     font-weight: 700;
@@ -1708,7 +1708,6 @@ h6, .h6 {
     text-transform: uppercase;
     letter-spacing: .2em;
 }
-*/
 
 .lead, .attention-getter {
     font-weight: 300;
@@ -3954,6 +3953,10 @@ input[type="button"].btn--primary:focus {
     margin-right: .2rem;
 }
 
+.center-div {
+    margin: auto;
+    width: 50%;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * resume
