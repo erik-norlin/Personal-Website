@@ -54,34 +54,34 @@
         const hdr = document.querySelector('.s-header');
         const hero = document.querySelector('#hero');
         let triggerHeight;
-
+        
         if (!(hdr && hero)) return;
 
         setTimeout(function(){
-            triggerHeight = hero.offsetHeight - 170;
+            triggerHeight = hero.offsetHeight - 500; /* -170 for precise activation when starting to scroll */
         }, 300);
 
         window.addEventListener('scroll', function () {
 
             let loc = window.scrollY;
            
-
+            
             if (loc > triggerHeight) {
                 hdr.classList.add('sticky');
             } else {
-                hdr.classList.add('sticky'); /* .remove for header effect */
+                hdr.classList.add('sticky'); /* .remove for disappearing effect */
             }
 
             if (loc > triggerHeight + 20) {
                 hdr.classList.add('offset');
             } else {
-                hdr.classList.add('offset'); /* .remove for header effect */
+                hdr.classList.add('offset'); /* .remove for disappearing effect */
             }
 
             if (loc > triggerHeight + 150) {
                 hdr.classList.add('scrolling');
             } else {
-                hdr.classList.add('scrolling'); /* .remove for header effect */
+                hdr.classList.add('scrolling'); /* .remove for disappearing effect */
             }
 
         });
