@@ -3800,10 +3800,10 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-about__pic {
-    width: var(--vspace-5);
-    height: var(--vspace-5);
-    border: 1.6rem solid rgba(255, 255, 255, 0.02);
-    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    border: 0.3rem solid rgba(255, 255, 255, 0.02);
+    border-radius: 60%;
 }
 
 .s-about__content-bottom {
