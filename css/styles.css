@@ -3910,6 +3910,10 @@ input[type="button"].btn--primary:focus {
     margin-bottom: 0;
 }
 
+.s-resume__center-download-cv-button {
+    text-align: center;
+}
+
 /* ------------------------------------------------------------------- 
  * ## resume block
  * ------------------------------------------------------------------- */
@@ -4547,8 +4551,4 @@ input[type="button"].btn--primary:focus {
     .s-footer__social li {
         margin-right: 1.4rem;
     }
-}
-
-.center-div-button {
-    text-align: center;
 }
