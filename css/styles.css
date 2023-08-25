@@ -948,6 +948,13 @@ input[type="password"], textarea {
     max-width: 100%;
 }
 
+.large-13 {
+    -ms-flex: 0 0 200%;
+    -webkit-box-flex: 0;
+    flex: 0 0 200%;
+    max-width: 200%;
+}
+
 /* ------------------------------------------------------------------- 
  * ## medium screen devices
  * ------------------------------------------------------------------- */
@@ -3898,12 +3905,12 @@ input[type="button"].btn--primary:focus {
     padding-bottom: var(--vspace-0_75);
     margin-bottom: var(--vspace-2_5);
 }
-/*
+
 .s-resume__section:last-child {
     border-bottom: none;
     padding-bottom: 0;
     margin-bottom: 0;
-}*/
+}
 
 /* ------------------------------------------------------------------- 
  * ## resume block
