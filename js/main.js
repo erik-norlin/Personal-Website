@@ -58,7 +58,7 @@
         if (!(hdr && hero)) return;
 
         setTimeout(function(){
-            triggerHeight = hero.offsetHeight - 500; /* -170 for precise activation when starting to scroll */
+            triggerHeight = hero.offsetHeight - 170;
         }, 300);
 
         window.addEventListener('scroll', function () {
