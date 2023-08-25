@@ -69,19 +69,19 @@
             if (loc > triggerHeight) {
                 hdr.classList.add('sticky');
             } else {
-                hdr.classList.remove('sticky');
+                hdr.classList.add('sticky'); /* .remove for header effect */
             }
 
             if (loc > triggerHeight + 20) {
                 hdr.classList.add('offset');
             } else {
-                hdr.classList.remove('offset');
+                hdr.classList.add('offset'); /* .remove for header effect */
             }
 
             if (loc > triggerHeight + 150) {
                 hdr.classList.add('scrolling');
             } else {
-                hdr.classList.remove('scrolling');
+                hdr.classList.add('scrolling'); /* .remove for header effect */
             }
 
         });
