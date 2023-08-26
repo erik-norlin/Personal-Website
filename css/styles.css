@@ -101,7 +101,7 @@
      */
     --color-1: hsla(182, 82%, 38%, 1);
     --color-2: rgba(255, 255, 255, 0.753);
-    --color-2-1: rgba(255, 255, 255, 0.199);
+    --color-2-1: rgba(122, 122, 122, 0.726);
 
     /* theme color variations
      */
@@ -3266,7 +3266,7 @@ input[type="button"].btn--primary:focus {
     text-transform: uppercase;
     letter-spacing: .4rem;
     background-color: var(--color-2-1);
-    color: rgba(0, 0, 0, 0);
+    color: rgba(240, 116, 0, 0);
     width: var(--header-height);
     height: var(--header-height);
     line-height: var(--header-height);
