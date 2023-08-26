@@ -3318,7 +3318,7 @@ input[type="button"].btn--primary:focus {
 
 .s-header__menu-toggle.is-clicked .s-header__menu-icon::before, 
 .s-header__menu-toggle.is-clicked .s-header__menu-icon::after {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .s-header__menu-toggle.is-clicked .s-header__menu-icon::before {
