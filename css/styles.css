@@ -3282,7 +3282,7 @@ input[type="button"].btn--primary:focus {
     margin-top: -1px;
     right: auto;
     bottom: auto;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(67, 212, 0, 0.932);
     position: absolute;
     left: 19px;
     top: 50%;
@@ -3318,7 +3318,7 @@ input[type="button"].btn--primary:focus {
 
 .s-header__menu-toggle.is-clicked .s-header__menu-icon::before, 
 .s-header__menu-toggle.is-clicked .s-header__menu-icon::after {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .s-header__menu-toggle.is-clicked .s-header__menu-icon::before {
