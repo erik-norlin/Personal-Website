@@ -4144,8 +4144,8 @@ input[type="button"].btn--primary:focus {
     border-radius: var(--border-radius);
     padding: 0 1.4rem;
     position: absolute;
-    top: var(--vspace-1_25);
-    left: 4rem;
+    bottom: var(--vspace-1_25);
+    right: 4rem;
 }
 
 .modal-popup__details:hover, 
