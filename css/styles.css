@@ -3791,7 +3791,7 @@ input[type="button"].btn--primary:focus {
     --color-border: var(--color-gray-16);
     background-color: var(--color-gray-17);
     padding-top: 10rem; /*calc(6 * var(--space));*/
-    padding-bottom: 4rem; /*calc(4 * var(--vspace-4)); */
+    padding-bottom: 6rem; /*calc(4 * var(--vspace-4)); */
     color: rgba(255, 255, 255, 0.4);
 }
 
@@ -4163,7 +4163,7 @@ input[type="button"].btn--primary:focus {
 .s-cta {
     background-color: var(--color-gray-1);
     padding-top: 6rem; /*var(--vspace-2_5);*/
-    padding-bottom: 6rem; /*var(--vspace-3_5);*/
+    padding-bottom: 6rem;/*var(--vspace-3_5);*/
     font-weight: 400;
     font-size: var(--text-lg);
     line-height: var(--vspace-1_25);
