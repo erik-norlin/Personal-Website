@@ -1,3 +1,3 @@
-Personal-Website
+# Personal-Website
 
-A personal website that shows my portfolio hosted on GitHug Pages.
+A personal website dedicated to show my portfolio hosted on GitHug Pages.
